@@ -1,7 +1,5 @@
 let recognizedText = "";
 
-const OPENAI_API_KEY = "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";
-
 const recognitionContainer = document.getElementById("recognition-animation");
 const recognitionAnimation = lottie.loadAnimation({
   container: recognitionContainer,
