@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <button onclick="startRecognition()">🎙️ Говорить</button>
+      <button onclick="speakText('Прверка связи')">➡️ тест</button>
+
+    </div>
+      <p id="result"></p>
+    <div class="info">
+      <div
+        id="loader-animation"
+        style="width: 200px; height: 200px; display: none"
+      ></div>
+      <div
+        id="recognition-animation"
+        style="width: 500px; height: 500px; display: none"
+      ></div>
+      <div
+        id="voice-animation"
+        style="width: 500px; height: 500px; display: none"
+      ></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
+    <script src="js/connectionGpt.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
